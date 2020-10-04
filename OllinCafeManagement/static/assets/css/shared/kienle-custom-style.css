@@ -1,0 +1,68 @@
+/* ------------------- Authen Page --------------------- */
+
+.auth.theme-one .auto-form-wrapper .form-group .input-group .form-control, .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap .form-control, .auth.theme-one .auto-form-wrapper .form-group .input-group .asColorPicker-input, .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap .asColorPicker-input, .auth.theme-one .auto-form-wrapper .form-group .input-group .dataTables_wrapper select, .dataTables_wrapper .auth.theme-one .auto-form-wrapper .form-group .input-group select, .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap .dataTables_wrapper select, .dataTables_wrapper .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap select, .auth.theme-one .auto-form-wrapper .form-group .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-one .auto-form-wrapper .form-group .input-group input[type=text], .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=text], .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap input[type=text], .auth.theme-one .auto-form-wrapper .form-group .input-group .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-one .auto-form-wrapper .form-group .input-group select, .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row select, .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap select, .auth.theme-one .auto-form-wrapper .form-group .input-group .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-one .auto-form-wrapper .form-group .input-group input[type=number], .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap .jsgrid .jsgrid-table .jsgrid-filter-row input[type=number], .jsgrid .jsgrid-table .jsgrid-filter-row .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap input[type=number], .auth.theme-one .auto-form-wrapper .form-group .input-group .select2-container--default .select2-selection--single, .select2-container--default .auth.theme-one .auto-form-wrapper .form-group .input-group .select2-selection--single, .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap .select2-container--default .select2-selection--single, .select2-container--default .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap .select2-selection--single, .auth.theme-one .auto-form-wrapper .form-group .input-group .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .auth.theme-one .auto-form-wrapper .form-group .input-group .select2-search__field, .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap .select2-container--default .select2-selection--single .select2-search__field, .select2-container--default .select2-selection--single .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap .select2-search__field, .auth.theme-one .auto-form-wrapper .form-group .input-group .tt-hint, .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap .tt-hint, .auth.theme-one .auto-form-wrapper .form-group .input-group .tt-query, .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap .tt-query, .auth.theme-one .auto-form-wrapper .form-group .input-group .typeahead, .auth.theme-one .auto-form-wrapper .form-group .asColorPicker-wrap .typeahead{
+    border: none;
+    border-radius:4px;
+    font-size: 0.875rem;
+}
+
+.auth.theme-one .auto-form-wrapper .form-group .submit-btn{
+    margin-top: 30px;
+}
+.auth.theme-one .auto-form-wrapper{
+    background-color: #ffffffc4;
+}
+:root, body{
+    font-size: 0.9rem;
+}
+.auth.theme-one .auth-footer li a{
+    font-size: 0.875rem;
+    color: white;
+}
+.auth.theme-one .footer-text{
+    color: whitesmoke;
+}
+.auth.theme-one .auto-form-wrapper .form-group .submit-btn{
+    font-size: 0.875rem;
+}
+.login-row{
+    margin-left: 3px !important;
+}
+.login-form{
+    width: max-content;
+}
+.login-logo{
+    vertical-align: middle;
+    border-style: none;
+    width: 100%
+}
+.login_message{
+    text-align: center;
+    margin-top: 20px;
+    color: red;
+    font-size: 15px
+}
+/* ------------------- Authen Page --------------------- */
+
+
+
+/* ------------------- Sidebar - Navbar --------------------- */
+.base-body{
+    background-color: #f3f4fa;
+}
+
+.navbar.default-layout{
+    background: linear-gradient(120deg, #128bfc, #18bef1) !important;
+}
+.sidebar .nav .nav-item.nav-profile .nav-link .user-wrapper{
+    margin-bottom: 0px !important;
+}
+
+.footer{
+    font-size: 0.8rem !important;
+}
+/* ------------------- Sidebar - Navbar --------------------- */
+
+.store-dropdown-item{
+    margin-top: 13px;
+}

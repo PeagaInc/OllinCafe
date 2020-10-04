@@ -1,0 +1,67 @@
+{% extends 'layouts/base-fullscreen.html' %}
+{% block title %} Login {% endblock title %}
+{% block content %}
+{% block stylesheets %}
+{% endblock stylesheets %}
+    <div class="container-scroller">
+      <div class="container-fluid page-body-wrapper full-page-wrapper auth auth-bg-1">
+        <div class="content-wrapper d-flex align-items-center auth theme-one">
+          <div class="row w-100 login-row">
+            <div class="col-lg-6 col-xl-3 col-10 mx-auto login-form ">
+              <img class="login-logo" src="/static/assets/images/ollincafe-logo.png"/>
+              <div class="auto-form-wrapper">
+                <div class="form-group">
+                    <h2>Sign in</h2>
+                </div>
+                <form method="POST">
+                    {% csrf_token %}
+                  <div class="form-group">
+                    <label class="label">Username</label>
+                    <div class="input-group">
+                      {{ form.username }}
+                      <div class="input-group-append">
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="label">Password</label>
+                    <div class="input-group">
+                        {{ form.password }}
+                      <div class="input-group-append">
+                      </div>
+                    </div>
+                  </div>
+                  {% if messages %}
+                    <p class="login_message">{{messages}}</p>
+                  {% endif %}
+                  <div class="form-group">
+                    <button class="btn btn-primary submit-btn btn-block">Login</button>
+                  </div>
+                </form>
+              </div>
+              <ul class="auth-footer">
+                <li><a href="#">Conditions</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms</a></li>
+              </ul>
+              <p class="footer-text text-center">Copyright © 2020 <a href="http://mypeaga.xyz" style="color: white;">Peaga Inc</a> All rights reserved.</p>
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="/static/assets/vendors/js/vendor.bundle.base.js"></script>
+    <!-- endinject -->
+    <!-- inject:js -->
+    <script src="/static/assets/js/shared/off-canvas.js"></script>
+    <script src="/static/assets/js/shared/hoverable-collapse.js"></script>
+    <script src="/static/assets/js/shared/misc.js"></script>
+    <script src="/static/assets/js/shared/settings.js"></script>
+    <script src="/static/assets/js/shared/todolist.js"></script>
+    <!-- endinject -->
+</html>
+{% endblock content %}
