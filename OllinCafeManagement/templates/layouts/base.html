@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Static assets - Used to load the Favicon -->
+{% load static %}
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+
+  <title>
+    Ollin Cafe - {% block title %} Management {% endblock %}
+  </title>
+  {% include "includes/stylesheets.html" %}
+  {% block stylesheets %}{% endblock stylesheets %}
+</head>
+
+<body class="base-body sidebar-icon-only ">
+
+    <div class="container-scroller">
+      {% include "includes/navbar.html" %}
+      <div class="container-fluid page-body-wrapper">
+        {% include "includes/sidebar.html" %}
+        <div class="main-panel">
+          <div class="content-wrapper">
+            {% block content %}{% endblock content %}
+          </div>
+          {% include "includes/footer.html" %}
+        </div>
+      </div>
+    </div>
+    {% include "includes/scripts.html" %}
+    {% block javascripts %}{% endblock javascripts %}
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js" crossorigin="anonymous"></script>
+    <script src="{% static 'include_by_ajax/js/include_by_ajax.min.js' %}" defer></script>
+</body>
+
+</html>
